@@ -28,11 +28,15 @@ h1, h2 {
     margin-top: 5px;
 }
 
-#logo {
-    height: 65px;
-    background: url("../images/logo.jpg")no-repeat relativ;
-}
-
+.first-title {
+    float: left;
+  }
+  
+  .logo {
+    background: url("../images/logo.jpg") no-repeat float right;
+    position: relative;
+    width:60PX ;
+  }
 /* navigation links */
 
 #menu {

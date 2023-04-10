@@ -146,6 +146,16 @@ h1, h2 {
     width: 100%;
 }
 
+/* information text */
+
+..public-info{
+	float: left;
+}
+
+.write-us {
+    float: right;
+}
+
 /* footer */
 
 footer {

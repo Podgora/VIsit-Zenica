@@ -111,26 +111,20 @@ h1, h2 {
 
 #left {
     width: 50%;
-    height: 30PX;
     margin-left: 70PX;
     margin-top: 29px;
-    margin-bottom: 5px;
 }
 
 #center {
     width: 50%;
-    height: 30PX;
     margin-left: 210PX;
     margin-top: 29px;
-    margin-bottom: 5px;
 }
 
 #right {
     width: 50%;
-    height: 30PX;
     margin-left: 350px;
     margin-top: 29px;
-    margin-bottom: 5px;
 }
 
 /* gallery */

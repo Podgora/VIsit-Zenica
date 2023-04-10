@@ -110,21 +110,27 @@ h1, h2 {
 /* text on wisit us */
 
 #left {
-    width: 50%;
-    margin-left: 70PX;
-    margin-top: 29px;
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
 
 #center {
-    width: 50%;
-    margin-left: 210PX;
-    margin-top: 29px;
+    width: 60%;
+    float: center;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
 
 #right {
-    width: 50%;
-    margin-left: 350px;
-    margin-top: 29px;
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
 
 /* gallery */

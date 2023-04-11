@@ -156,6 +156,10 @@ h1, h2 {
     float: right;
 }
 
+#text-input {
+    background-color: #EAFFFD;
+}
+
 /* footer */
 
 footer {

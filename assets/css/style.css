@@ -140,13 +140,33 @@ h1, h2 {
 
 /* information text */
 
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
+  }
+
+.public-info {
+    margin: 15PX;
+}
+
 .contact-form {
-    margin: 10px;
+    margin: 15PX;
 }
 
 .text-input {
     background-color: #EAFFFD;
     border:#6B5E62 1px solid
+}
+
+.sent {
+    margin-top: 20px;
+    margin-left: 0.75rem;
+    padding: 0.75rem;
+    background-color: #709775;
+    color: #515052;
+    border: none;
+    border-radius: 5px;
 }
 
 /* footer */

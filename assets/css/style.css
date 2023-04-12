@@ -111,26 +111,18 @@ h1, h2 {
 
 #left {
     width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
+    margin:15px;
 }
 
 #center {
     width: 60%;
-    float: center;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
+    margin-left: 210PX;
 }
 
 #right {
     width: 60%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
+    margin-left: 400PX;
+   margin-top: 15PX
 }
 
 /* gallery */
@@ -148,16 +140,13 @@ h1, h2 {
 
 /* information text */
 
-.public-info{
-	float: left;
+.contact-form {
+    margin: 10px;
 }
 
-.write-us {
-    float: right;
-}
-
-#text-input {
+.text-input {
     background-color: #EAFFFD;
+    border:#6B5E62 1px solid
 }
 
 /* footer */

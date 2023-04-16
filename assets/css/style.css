@@ -141,17 +141,12 @@ h1, h2 {
 
 /* information text */
 
-#map {
-    height: 100%;
-    width: 100%;
-    border: none;
-  }
 
-.public-info {
+#public-info {
     margin: 15PX;
 }
 
-.contact-form {
+#write-us {
     margin: 15PX;
 }
 
@@ -161,13 +156,10 @@ h1, h2 {
 }
 
 .sent {
-    margin-top: 20px;
-    margin-left: 0.75rem;
-    padding: 0.75rem;
-    background-color: #709775;
-    color: #515052;
-    border: none;
-    border-radius: 5px;
+    background-color: #69A197;
+    width: 55PX;
+    height: 25px;
+    margin: 15px;
 }
 
 /* footer */

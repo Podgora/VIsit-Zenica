@@ -1,83 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang=“en”>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="VIsit Zenica, BiH, Bosnia and Hercegovina">
-    <meta name="keywords" content="visit, zenica, zenicki, zenicani, nicaze, bosna">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset=“UTF-8">
+    <meta http-equiv=“X-UA-Compatible” content=“IE=edge”>
+    <meta name=“viewport” content=“width=device-width, initial-scale=1.0">
+    <meta name=“description” content=“VIsit Zenica, BiH, Bosnia and Hercegovina”>
+    <meta name=“keywords” content=“visit, zenica, zenicki, zenicani, nicaze, bosna”>
+    <link rel=“stylesheet” href=“assets/css/style.css”>
     <title>Visit Zenica</title>
 </head>
 <body>
 <header>
 <section>
-    <div id="title"> 
-        <a href="index.html">
-            <h1>Visit Zenica <img src="assets/images/logo.jpg" alt="logo" width="55PX" height="60PX"/></h1>
+    <div id=“title”>
+        <a href=“index.html”>
+            <h1>Visit Zenica <img src=“assets/images/logo.jpg” alt=“logo” id=“logo”></h1>
         </a>
     </div>
     <nav>
-    <ul id="navigation">
+    <ul id=“navigation”>
     <li>
-        <a href="informations.html" class="active">Informations</a>
+        <a href=“informations.html” class=“active”>Informations</a>
     </li>
     <li>
-        <a href="gallery.html" class="active">Gallery</a>
+        <a href=“gallery.html” class=“active”>Gallery</a>
     </li>
     <li>
-        <a href="reasons.html" class="active">Pleaces to see</a>
+        <a href=“reasons.html” class=“active”>Pleaces to see</a>
     </li>
     <li>
-        <a href="index.html" class="active">Home</a>
+        <a href=“index.html” class=“active”>Home</a>
     </li>
     </ul>
     </nav>
 </section>
 </header>
-<section id="map-wrapper">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45762.81771236574!2d17.87272417910156!3d44.20343920000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475ee26b2c197a21%3A0x58a707c9607b8702!2sZenica%2C%20Bosnia%20and%20Herzegovina!5e0!3m2!1sen!2sie!4v1681323263779!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<section id=“map-wrapper”>
+    <!-- <iframe src=“https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45762.81771236574!2d17.87272417910156!3d44.20343920000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475ee26b2c197a21%3A0x58a707c9607b8702!2sZenica%2C%20Bosnia%20and%20Herzegovina!5e0!3m2!1sen!2sie!4v1681323263779!5m2!1sen!2sie” width=“600” height=“450" style=“border:0;” allowfullscreen=“” loading=“lazy” referrerpolicy=“no-referrer-when-downgrade”></iframe> -->
   </section>
 <section>
-    <div id="public-info">
-        <h2>Important Numbers <i class="fa-duotone fa-phone"></i></h2>
+    <div id=“public-info”>
+        <h2>Important Numbers <i class=“fa-solid fa-phone”></i></h2>
         <p>Police-122</p>
         <p>Ambulance-124</p>
         <p>Fire service-123</p>
         <p>Roadside assistance-1282/1285/1288</p>
     </div>
-    <div id="write-us">
-        <form method="POST" action="https://formdump.codeinstitute.net/" class="contact-form">
-            <h2>Get in tuch with us. <i class="fas fa-heartbeat"></i></i></h2>
+    <div id=“write-us”>
+        <form method=“POST” action=“https://formdump.codeinstitute.net/” class=“contact-form”>
+            <h2>Get in touch with us. <i class=“fas fa-heartbeat”></i></i></h2>
             <fieldset>
-            <label for="fname">First Name</label>
-            <input id="fname" name="first_name" type="text" class="text-input" required>
+            <label for=“fname”>First Name</label>
+            <input id=“fname” name=“first_name” type=“text” class=“text-input” required>
             <hr>
-            <label for="lname">Last Name</label>
-            <input id="lname" name="last_name" type="text" class="text-input" required>
+            <label for=“lname”>Last Name</label>
+            <input id=“lname” name=“last_name” type=“text” class=“text-input” required>
             <hr>
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email_address" class="text-input" required>
+            <label for=“email”>Email Address</label>
+            <input type=“email” id=“email” name=“email_address” class=“text-input” required>
         </fieldset>
         <fieldset>
-            <label for="feedback"> What can we do to improwe your experience with us?</label>
+            <label for=“feedback”> What can we do to improwe your experience with us?</label>
             <br>
-		    <textarea id="feedback" name="feedback" class="text-input" cols="80" rows="5">Your feedback</textarea>
+            <textarea id=“feedback” name=“feedback” class=“text-input” cols=“80” rows=“5">Your feedback</textarea>
         </fieldset>
-            <input class="sent" type="submit" value="Sent">
+            <input class=“sent” type=“submit” value=“Sent”>
     </div>
-</section>
-
-<footer>
-        <ul class="social-networks">
-            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
-            <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
-            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+</section><footer>
+        <ul class=“social-networks”>
+            <li><a href=“https://www.facebook.com” target=“_blank”><i class=“fab fa-facebook”></i></a></li>
+            <li><a href=“https://www.twitter.com” target=“_blank”><i class=“fab fa-twitter-square”></i></a></li>
+            <li><a href=“https://www.youtube.com” target=“_blank”><i class=“fab fa-youtube”></i></a></li>
+            <li><a href=“https://www.instagram.com” target=“_blank”><i class=“fab fa-instagram”></i></a></li>
         </ul>
-    </footer>
-
-    <!-- Font awesome script -->
-    <script src="https://kit.fontawesome.com/afdcf27415.js" crossorigin="anonymous"></script>
+    </footer>    <!-- Font awesome script -->
+    <script src=“https://kit.fontawesome.com/afdcf27415.js” crossorigin=“anonymous”></script>
 </body>
 </html>

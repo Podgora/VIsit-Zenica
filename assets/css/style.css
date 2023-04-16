@@ -32,11 +32,12 @@ h1, h2 {
     float: left;
   }
   
-  #logo {
-    background: url("../images/logo.jpg") no-repeat ;
-    float:right ;
-    width:60PX ;
+#logo {
+    float:right;
+    width:60px;
+    height: 55px;
   }
+
 /* navigation links */
 
 #navigation {

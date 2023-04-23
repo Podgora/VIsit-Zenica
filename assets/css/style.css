@@ -116,14 +116,8 @@ h1, h2 {
 }
 
 /* information text */
-
-
-#public-info {
-    margin: 15PX;
-}
-
-.write-us {
-    margin: 10PX;
+.info {
+    margin:15px;
 }
 
 .text-input {

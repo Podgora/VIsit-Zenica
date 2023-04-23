@@ -5,6 +5,11 @@
     border: none;
     background-color: #f2eecb;
 }
+:root {
+    --primary-color: #f2eecb;
+    --overlay-color: #f2eecb;
+    --menu-spead: 0.75s;
+}
 
 body {
     font-family: Mukta, sans-serif;
@@ -37,7 +42,8 @@ h1, h2 {
     width:60px;
     height: 55px;
   }
-  
+
+  /* menu 
 /* hero-image */
 
 #hero-outer {

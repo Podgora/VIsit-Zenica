@@ -122,8 +122,8 @@ h1, h2 {
     margin: 15PX;
 }
 
-#write-us {
-    margin: 15PX;
+.write-us {
+    margin: 10PX;
 }
 
 .text-input {

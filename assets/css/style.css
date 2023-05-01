@@ -155,21 +155,24 @@ footer {
 
 @media screen and (max-width: 1200px) {
 
+    #title {
+        margin-left: 0px;
+        width: fit-content;
+    }
+
+    #hero-image {
+        width: 100%;
+        height: auto;
+    }
+
     #cover-text {
         padding: 30px 0;
         margin: 0;
     }
 
-    #left, #right{
+    #left, right, center{
         width: 100%;
         float: left;
         padding: 0;
     }
-    #center {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
 }
